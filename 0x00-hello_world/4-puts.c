@@ -1,8 +1,7 @@
 #include<stdio.h>
-/*c program using put*/
-int main(void)
+int main(void)/*c program puts*/
 {
 char MyStr[] = "Programming is like building a multilingual puzzle";
 puts(MyStr);
-return(0);
+return (0);
 }
