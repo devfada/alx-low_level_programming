@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _isalpha-
- *
- * Return- if uppercase or lowercase return 1 otherwise 0
+ *c-The character to be checked
+ * Return-return 1 otherwise 0
  */
 int _isalpha(int c)
 {
