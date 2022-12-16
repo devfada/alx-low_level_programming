@@ -6,11 +6,11 @@
  */
 int print_sign(int n)
 {
-if (n>0)
+if (n > 0)
 {
 printf("+, %d", 1);
 }
-else if (n==0)
+else if (n == 0)
 {
 printf("0, %d", 0);
 }
