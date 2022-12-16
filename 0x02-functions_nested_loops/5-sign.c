@@ -8,12 +8,12 @@ int print_sign(int n)
 {
 if (n > 0)
 {
-printf("+, %d", 1);
+_putchar("+, %d", 1);
 }
 else if (n == 0)
 {
-printf("0, %d", 0);
+_putchar("0, %d", 0);
 }
 else
-printf("-, %d", -1);
+_putchar("-, %d", -1);
 }
