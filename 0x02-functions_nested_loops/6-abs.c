@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  *_abs-function that gives an absolute value
  *int-value to be made absolute
