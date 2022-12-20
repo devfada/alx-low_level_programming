@@ -17,8 +17,8 @@ void reset_to_98(int *n)
 int main(void)
 {
 int n = 402;
-_putchar("n=%d\n", n);
+putchar("n=%d\n", n);
 reset_to_98(&n);
-_putchar("Value of n is:%d\n", n);
+putchar("Value of n is:%d\n", n);
 return(0);
 }
