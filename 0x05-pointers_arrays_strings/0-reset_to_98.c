@@ -1,20 +1,20 @@
 /**
- *reset_to_98 - function does not modify p 
- *@int * n: a pointer variable
+ *reset_to_98- function to change value 
+ *
+ *n- pointer variable
  *Return: nothing
  */
 void reset_to_98(int *n)
 {
-*n = 98;
+*n=98;
 }
 /**
- *main - parameters are passed by value
- *
+ *main- entry point
+ *x- integer variable
  *Return: Always 0
  */
 int main(void)
 {
-int x = 402;
+int x=402;
 reset_to_98(&x);
-return(0);
 }
