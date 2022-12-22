@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 /**
  *printrev- fuction that reverses string 
  *
