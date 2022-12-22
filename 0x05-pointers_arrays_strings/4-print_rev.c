@@ -5,10 +5,22 @@
  *
  * Return: reversed string
  */
-void print_rev(char *s)
+void rev_string(char *s)
 {
+int len = strlen(s);
 int i;
-for(i = strlen(s)-1; i>=0; i--)
-putchar(s[i]);
-putchar('\n');
+for (i = 0; i < len / 2; i++)
+{
+char temp = s[i];
+s[i] = s[len - i - 1];
+s[len - i - 1] = temp;
+}
+}
+
+int main(void)
+{
+char a[] = "hello";
+rev_string(a);
+printf("'a': %s\n", a);
+return(0);
 }
