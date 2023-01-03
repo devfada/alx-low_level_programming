@@ -1,3 +1,6 @@
+#include<stdlib>
+#include<time.h>
+#include<stdio.h>
 /**
  * main- Prints the last digigit of a randomly generated numb
  er
