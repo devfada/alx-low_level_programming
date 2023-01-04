@@ -1,13 +1,21 @@
 #include "main.h"
 /**
  *puts2- function that prints string characters
- *Return: characters
+ *@str: pointer to string
+ *Return: void
  */
-void puts2(char *str) 
+void puts2(char *str)
 {
-for (int i = 0; str[i] != '\0'; i+=2)
+int i;
+i = 0;
+while (str[i] != '\0')
 {
-putchar(str[i]);
+if (i % 2 == 0)
+{
+_putchar(str[i]);
 }
-putchar('\n');
+i++;
 }
+_putchar('\n');
+}
+
